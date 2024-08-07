@@ -8,7 +8,7 @@ const Dots = ({coord}) => {
             top: coord.y,
             width: '5px',
             height: '5px',
-            backgroundColor: 'red',
+            backgroundColor: coord.color,
             borderRadius: '50%',}}>
     </div>
   )
